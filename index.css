@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    top: 100px;
+    position: relative;
+    margin-left: 190px;
+  
+}
+.spacing{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 300px;
+    font-weight: bold;
+    
+
+}
+
+.space{
+    position: relative;
+    top: 150px;
+    left: 42%;
+    font-weight: bold;
+    font-stretch: condensed;
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 400px;
+}
+
+
+
+Body{
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 4%;
+
+}
+
+#plan{
+   color: white; 
+   background-color: #FF764E;
+   display: inline-block;
+   padding: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+#park{
+    color: white;
+    background-color: #5ED3EB;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#get{
+    color: white;
+    background-color: #FFCD69; 
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#plana{
+    color: white; 
+   background-color: #FF764E;
+   display: inline-block;
+   padding: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   margin-bottom: 30px;
+
+}
+
+#parka{
+    color: white;
+    background-color: #5ED3EB;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+#geta{
+    color: white;
+    background-color: #FFCD69; 
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+
+#fire{
+    width: 100px;
+  
+}
+#truck{
+    width: 100px;
+}
+
+#mainBody{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: -50px 40px 50px 40px;
+   
+
+
+   
+}
+#images{
+  max-width: 18%; 
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50%;
+  position: relative;
+  bottom: 140px;
+  left: 75px;
+  
+}
+
+#image{
+    width: 100%;
+    margin-bottom: 50px;
+    object-fit: cover;
+    height: 350px;
+    
+    
+   
+}
+.container{
+    text-align: center;
+    
+    font-stretch: condensed;
+    margin: 10px 350px 10px 350px;
+
+
+
+
+}
+footer{
+background-color: #F9E7DC;
+margin-top: 100px;
+
+
+}
+
+ 
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+nav a{
+    margin: 0px;
+}
+span{
+    font-weight: bold;
+}
